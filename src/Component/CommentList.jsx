@@ -27,7 +27,7 @@ class CommentList extends React.Component {
       {
         headers: {
           Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGFlNDE0YWNlYWY0ODAwMTVjOTE4NzAiLCJpYXQiOjE2MjI3OTI5NzYsImV4cCI6MTYyNDAwMjU3Nn0.-xxIE6ksy_dDMiZ2u_RAQDm1PHcxYsNoPCkI3iWH6m4",
+            "Bearer Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjBlNzJkNTI2MjAwMTViNmRjOTEiLCJpYXQiOjE2MjkyODY2MzIsImV4cCI6MTYzMDQ5NjIzMn0.DmqdR4D3rw25zQ1mpfIjVbVzPkMA5en-dJpOGpqfwP4",
         },
       }
     );
@@ -50,7 +50,7 @@ class CommentList extends React.Component {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MGFlNDE0YWNlYWY0ODAwMTVjOTE4NzAiLCJpYXQiOjE2MjI3OTI5NzYsImV4cCI6MTYyNDAwMjU3Nn0.-xxIE6ksy_dDMiZ2u_RAQDm1PHcxYsNoPCkI3iWH6m4",
+          "Bearer Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTFjZjBlNzJkNTI2MjAwMTViNmRjOTEiLCJpYXQiOjE2MjkyODY2MzIsImV4cCI6MTYzMDQ5NjIzMn0.DmqdR4D3rw25zQ1mpfIjVbVzPkMA5en-dJpOGpqfwP4",
       },
       body: JSON.stringify(this.state.newComment),
     });

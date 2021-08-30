@@ -13,7 +13,7 @@ class RowOfMovies extends React.Component {
   }
   fetchMovies = async () => {
     let response = await fetch(
-      `http://www.omdbapi.com/?apikey=a0871843&s="${this.props.title.toLowerCase()}"&type=movie&page=1`
+      `http://www.omdbapi.com/?apikey=8231abe8&s="${this.props.title.toLowerCase()}"&type=movie&page=1`
     );
     let movies_json = await response.json();
     this.setState({ movies: movies_json }, () =>
